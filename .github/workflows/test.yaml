@@ -11,5 +11,6 @@ jobs:
       - uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-      - name: Run tests
-        run: bun test
+       - name: Run tests
+        run: |
+          bun test
